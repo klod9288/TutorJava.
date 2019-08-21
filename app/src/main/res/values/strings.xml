@@ -12,4 +12,11 @@
         แต่เดิมภาษานี้เรียกว่า ภาษาโอ๊ก (Oak) ซึ่งตั้งชื่อตามต้นโอ๊กใกล้ที่ทำงานของ เจมส์ กอสลิง
         แต่ว่ามีปัญหาทางลิขสิทธิ์ จึงเปลี่ยนไปใช้ชื่อ "จาวา" ซึ่งเป็นชื่อกาแฟแทน </string>
     <string name="GroupDev">การดาวน์โหลดและติดตั้งชุดพัฒนาซอฟแวร์</string>
+    <string name="content">สารบัญ</string>
+    <string name="step_install">ขั้นตอนการติดตั้งโปรแกรม</string>
+    <string name="step_install1">1) ขั้นตอนที่หนึ่ง</string>
+    <string name="step_install2">2) ขั้นตอนที่สอง</string>
+    <string name="step_install3">3) ขั้นตอนที่สาม</string>
+    <string name="kin_variable">ชนิดของข้อมูลและตัวแปร</string>
+    <string name="logical">ข้อมูลแบบตรรกะ(Logical)</string>
 </resources>
