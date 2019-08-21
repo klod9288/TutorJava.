@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_margin="@dimen/Margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_margin="@dimen/Margin"
+                    android:src="@mipmap/logo_java"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textSize="@dimen/H1"
+                    android:textColor="@color/purple"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="@string/txtJava"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_margin="@dimen/Margin"
+                    android:text="@string/aboutJava"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/txtIntroduction"
+                    android:clickable="true"
+                    android:layout_margin="@dimen/Margin"
+                    android:gravity="right"
+                    android:layout_gravity="bottom"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/H1"
+                    android:textColor="@color/purplePrimaryDark"
+                    android:text="สารบัญ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
