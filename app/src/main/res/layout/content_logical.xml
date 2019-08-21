@@ -1,6 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/back"
+        android:textSize="@dimen/H3"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/Margin"
+        android:text="@string/detail_logical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@color/back"
+        android:textSize="@dimen/H3"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/Margin"
+        android:layout_marginBottom="@dimen/Margin"
+        android:layout_marginRight="@dimen/Margin"
+        android:text="@string/sample_logical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/purplePrimary"
+        android:textSize="@dimen/H3"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/Margin"
+        android:layout_marginBottom="@dimen/Margin"
+        android:layout_marginRight="@dimen/Margin"
+        android:text="ตัวอย่าง Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textSize="14dp"
+        android:layout_marginLeft="@dimen/Margin"
+        android:layout_marginRight="@dimen/Margin"
+        android:text="@string/sample_code_logical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="@string/sample_code_logical2"
+        android:textSize="@dimen/H4"
+        android:textColor="@color/colorAccent"
+        android:layout_marginRight="@dimen/Margin"
+        android:layout_marginLeft="@dimen/Margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/H4"
+        android:text="@string/sample_code_logical3"
+        android:layout_marginRight="@dimen/Margin"
+        android:layout_marginLeft="@dimen/Margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+        android:layout_marginRight="@dimen/Margin"
+        android:layout_marginLeft="@dimen/Margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 
 </LinearLayout>

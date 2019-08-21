@@ -44,7 +44,13 @@ public class Content extends Fragment {
             }
         });
 
-
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.FrameLayoutMain, new Content_Logical()).addToBackStack(null).commit();
+            }
+        });
     }//TextView Controller
 
     private void InitialView() {

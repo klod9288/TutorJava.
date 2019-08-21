@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <dimen name="H1">20dp</dimen>
     <dimen name="H2">18dp</dimen>
     <dimen name="H3">16dp</dimen>
     <dimen name="Margin">10dp</dimen>
-
 </resources>
