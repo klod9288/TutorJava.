@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">TutorJava</string>
     <string name="txtJava">Java Programming</string>
-
     <string name="aboutJava"> จากวิกิพีเดีย สารานุกรมเสรีไปยังการนำทางไปยังการค้นหาโลโก้ของภาษาจาวาภาษาจาวา
         (อังกฤษ: Java programming language) เป็นภาษาโปรแกรมเชิงวัตถุ
         (อังกฤษ: Object Oriented Programming) พัฒนาโดย เจมส์ กอสลิง
@@ -12,7 +11,15 @@
         โดยรูปแบบที่เพิ่มเติมขึ้นคล้ายกับภาษาอ็อบเจกต์ทีฟซี (Objective-C)
         แต่เดิมภาษานี้เรียกว่า ภาษาโอ๊ก (Oak) ซึ่งตั้งชื่อตามต้นโอ๊กใกล้ที่ทำงานของ เจมส์ กอสลิง
         แต่ว่ามีปัญหาทางลิขสิทธิ์ จึงเปลี่ยนไปใช้ชื่อ "จาวา" ซึ่งเป็นชื่อกาแฟแทน </string>
+    <string name="JDK">
+        บทความนี้มีชื่อเป็นภาษาอังกฤษ เนื่องจากยังไม่มีชื่อภาษาไทยที่กระชับ เหมาะสม หรือไม่รู้วิธีอ่านในภาษาไทย
+Java Development Kit (JDK) เป็นชุดคำสั่งในการพัฒนาโปรแกรมด้วยภาษาจาวา ซึ่งชุดพัฒนาโปรแกรม JDK ประกอบด้วย 3 รุ่นย่อยดังนี้
 
+Java SE (Standard Edition) สำหรับพัฒนาโปรแกรมบนคอมพิวเตอร์เดสก์ทอปทั่วไป
+Java ME (Micro Edition) สำหรับพัฒนาโปรแกรมบนอุปกรณ์พกพา เช่น โทรศัพท์มือถือ หรือพีดีเอ ส่วนมากใช้เขียนโปรแกรมเกม
+Java EE (Enterprise Edition) สำหรับพัฒนาโปรแกรมในองค์กรใหญ่ๆ หรือมีขอบเขตของโครงการกว้างมาก
+ชุดพัฒนาโปรแกรม JDK นั้น เป็นมาตรฐานที่ถูกกำหนดโดยบริษัทซัน ไมโครซิสเต็มส์ และมีผู้พัฒนาชุดพัฒนาโปรแกรม JDK ออกมามากมาย เช่น ซัน ไมโครซิสเต็มส์, ไอบีเอ็ม, และบีอีเอ ซิสเต็มส์
+    </string>
     <string name="GroupDev">การดาวน์โหลดและติดตั้งชุดพัฒนาซอฟแวร์</string>
     <string name="content">สารบัญ</string>
     <string name="step_install">ขั้นตอนการติดตั้งโปรแกรม</string>
@@ -21,13 +28,12 @@
     <string name="step_install3">3) ขั้นตอนที่สาม</string>
     <string name="kin_variable">ชนิดของข้อมูลและตัวแปร</string>
     <string name="logical">ข้อมูลแบบตรรกะ(Logical)</string>
-
     <string name="detail_logical">
         ข้อมูลประเภทนี้จะมีค่าแบบ Boolean โดยมีค่าเพียงสองค่า คือ true (จริง) false (เท็จ)
     </string>
     <string name="sample_logical">
         ตัวอย่างเช่น boolean Click = true;
-              boolean onClick = false;
+              boolean noClick = false;
         เป็นการประกาศตัวแปรชื่อ Click ให้เป็นข้อมูลบูลีนและกำหนดให้เป็นจริง ส่วน onClick ถูกกำหนดให้เป็นตัวแปรบูลีนและกำหนดให้เป็นเท็จ
     </string>
     <string name="sample_code_logical">
@@ -43,4 +49,27 @@
             return view;
         }//OnCreateView"
     </string>
+    <string name="exit">ออกโปรแกรม</string>
+    <string name="AboutJavaTechnology">
+        เทคโนโลยี จาวา เป็นทั้งภาษาโปรแกรมและแพลตฟอร์ม
+    </string>
+    <string name="JavaLanguage">
+        ภาษาโปรแกรม จาวา เป็นภาษาระดับสูงที่สามรถโดดเด่นด้วย buzzwords ดังต่อไปนี้
+    </string>
+    <string name="JavaLanguage2">
+        .Simple             .Architecture neutral
+    </string>
+    <string name="JavaLanguage3">
+        .Object oriented    .Portable
+    </string>
+    <string name="JavaLanguage4">
+        .Distributed        .High performance
+    </string>
+    <string name="JavaLanguage5">
+        .Multithreaded      .Robust
+    </string>
+    <string name="JavaLanguage6">
+         .Dynamic            .Secure
+    </string>
+
 </resources>

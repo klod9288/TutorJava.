@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.Toolbar;
 import android.text.util.Linkify;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,7 +27,24 @@ public class Download_Dev extends Fragment {
         super.onActivityCreated(savedInstanceState);
         InitialView();
         TextViewController();
+        CreateToolbar();
     }//OnActivity
+
+    private void CreateToolbar() {
+
+        Toolbar toolbar = getView().findViewById(R.id.toolbarDowDev);
+        ((MainActivity)getActivity()).setSupportActionBar(toolbar);
+        ((MainActivity)getActivity()).getSupportActionBar().setTitle("Download devEditor");
+        ((MainActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+        ((MainActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().popBackStack();
+            }
+        });
+
+    }//Create Toolbar
 
     private void TextViewController() {
         textView.setOnClickListener(new View.OnClickListener() {

@@ -11,11 +11,12 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 public class introduction extends Fragment {
-    private TextView textView;
+    private TextView textView,textView2;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
 
     }//Main Method
 
@@ -24,7 +25,17 @@ public class introduction extends Fragment {
         super.onActivityCreated(savedInstanceState);
         InitialView();
         TextViewOnClick();
+        ExitIntrodution();
     }//OnActivityCreate
+
+    private void ExitIntrodution() {
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                System.exit(0);
+            }
+        });
+    }
 
     private void TextViewOnClick() {
         textView.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +51,7 @@ public class introduction extends Fragment {
 
     private void InitialView() {
         textView = getView().findViewById(R.id.txtIntroduction);
+        textView2 = getView().findViewById(R.id.txtIntroductionExit);
     }
 
     @Nullable

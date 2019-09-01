@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent">
 
+    <include android:id="@+id/toolbarContent" layout="@layout/toolbar"/>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -31,18 +33,19 @@
 
                     <TextView
                         android:layout_margin="@dimen/Margin"
-                        android:text="1"
+                        android:text="  "
                         android:textSize="@dimen/H1"
-                        android:textColor="@color/back"
+                        android:textColor="@color/purple"
                         android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
                     <TextView
+                        android:id="@+id/txtDetailGroupDev"
                         android:layout_margin="@dimen/Margin"
                         android:text="@string/GroupDev"
                         android:textSize="@dimen/H2"
-                        android:textColor="@color/back"
+                        android:textColor="@color/purple"
                         android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -68,7 +71,6 @@
                         android:text="การดาวโหลดชุดพัฒนาซอฟแวร์"
                         android:textSize="@dimen/H2"
                         android:textColor="@color/back"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
@@ -93,7 +95,31 @@
                         android:text="การติดตั้งโปแกรมพัฒนาซอฟแวร์"
                         android:textSize="@dimen/H2"
                         android:textColor="@color/back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+                <!--lesson1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_margin="@dimen/Margin"
+                        android:text="1"
+                        android:textSize="@dimen/H1"
+                        android:textColor="@color/purple"
                         android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/txtJavaLesson1"
+                        android:layout_margin="@dimen/Margin"
+                        android:text="จาวา เทคโลโลยีและจาวาโปรแกรมมิ่ง"
+                        android:textSize="@dimen/H2"
+                        android:textStyle="bold"
+                        android:textColor="@color/purple"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
@@ -105,9 +131,9 @@
 
                     <TextView
                         android:layout_margin="@dimen/Margin"
-                        android:text="2"
+                        android:text="5"
                         android:textSize="@dimen/H1"
-                        android:textColor="@color/back"
+                        android:textColor="@color/purple"
                         android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -116,7 +142,7 @@
                         android:layout_margin="@dimen/Margin"
                         android:text="@string/kin_variable"
                         android:textSize="@dimen/H2"
-                        android:textColor="@color/back"
+                        android:textColor="@color/purple"
                         android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -142,467 +168,12 @@
                         android:text="@string/logical"
                         android:textSize="@dimen/H2"
                         android:textColor="@color/back"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
 
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                </LinearLayout>
 
             </LinearLayout>
 

@@ -4,13 +4,14 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 public class Content extends Fragment {
-    private TextView textView,textView1,textView2;
+    private TextView textView,textView1,textView2,textView3,textView4;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -25,7 +26,24 @@ public class Content extends Fragment {
 
         InitialView();
         TextViewController();
-    }
+        CreateToolbar();
+    }//onActivityCreate
+
+    private void CreateToolbar() {
+
+        Toolbar toolbar = getView().findViewById(R.id.toolbarContent);
+        ((MainActivity)getActivity()).setSupportActionBar(toolbar);
+        ((MainActivity)getActivity()).getSupportActionBar().setTitle("Content");
+        ((MainActivity)getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
+        ((MainActivity)getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().popBackStack();
+            }
+        });
+
+    }//Create Toolbar
 
     private void TextViewController() {
         textView.setOnClickListener(new View.OnClickListener() {
@@ -51,12 +69,30 @@ public class Content extends Fragment {
                         .replace(R.id.FrameLayoutMain, new Content_Logical()).addToBackStack(null).commit();
             }
         });
+
+        textView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.FrameLayoutMain, new DetailGroupDev()).addToBackStack(null).commit();
+            }
+        });
+
+        textView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.FrameLayoutMain, new Content_Lesson1()).addToBackStack(null).commit();
+            }
+        });
     }//TextView Controller
 
     private void InitialView() {
         textView = getView().findViewById(R.id.txtDownDev);
         textView1 = getView().findViewById(R.id.txtInstall);
         textView2 = getView().findViewById(R.id.txtLogical);
+        textView3 = getView().findViewById(R.id.txtDetailGroupDev);
+        textView4 = getView().findViewById(R.id.txtJavaLesson1);
     }
 
     @Nullable
