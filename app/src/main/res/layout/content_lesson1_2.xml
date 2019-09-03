@@ -47,6 +47,15 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
+                    android:layout_marginTop="@dimen/Margin"
+                    android:text="@string/JavaTechnology4"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/Margin"
                     android:text=""
                     android:textSize="@dimen/H2"
                     android:textColor="@color/back"
