@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbarContentLesson1_1"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/Margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Can_Java"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin"
+                    android:text="@string/Can_Java2"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin"
+                    android:text="@string/Can_Java3"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin"
+                    android:text="@string/Can_Java4"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin"
+                    android:text="@string/Can_Java5"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin"
+                    android:text="@string/Can_Java6"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin"
+                    android:text="@string/Can_Java7"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

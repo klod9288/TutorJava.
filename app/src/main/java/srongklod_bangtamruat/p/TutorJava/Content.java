@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 public class Content extends Fragment {
-    private TextView textView,textView1,textView2,textView3,textView4;
+    private TextView textView,textView1,textView2,textView3,textView4,textView5, textView6;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -85,6 +85,22 @@ public class Content extends Fragment {
                         .replace(R.id.FrameLayoutMain, new Content_Lesson1()).addToBackStack(null).commit();
             }
         });
+        textView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.FrameLayoutMain, new Content_Lesson1_1()).addToBackStack(null).commit();
+            }
+        });
+
+        textView6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.FrameLayoutMain, new Content_Lesson1_2()).addToBackStack(null).commit();
+            }
+        });
     }//TextView Controller
 
     private void InitialView() {
@@ -93,7 +109,9 @@ public class Content extends Fragment {
         textView2 = getView().findViewById(R.id.txtLogical);
         textView3 = getView().findViewById(R.id.txtDetailGroupDev);
         textView4 = getView().findViewById(R.id.txtJavaLesson1);
-    }
+        textView5 = getView().findViewById(R.id.txtJavaLesson1_1);
+        textView6 = getView().findViewById(R.id.txtJavaLesson1_2);
+    }//InitialView
 
     @Nullable
     @Override
