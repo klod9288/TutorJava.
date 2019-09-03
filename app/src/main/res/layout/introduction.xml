@@ -20,7 +20,7 @@
 
                 <ImageView
                     android:layout_margin="@dimen/Margin"
-                    android:src="@mipmap/logo_java"
+                    android:src="@mipmap/cricle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
 

@@ -131,7 +131,7 @@
 
                     <TextView
                         android:layout_margin="@dimen/Margin"
-                        android:text="5"
+                        android:text="2"
                         android:textSize="@dimen/H1"
                         android:textColor="@color/purple"
                         android:textStyle="bold"
