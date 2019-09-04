@@ -27,28 +27,6 @@ Java EE (Enterprise Edition) สำหรับพัฒนาโปรแกร
     <string name="step_install2">2) ขั้นตอนที่สอง</string>
     <string name="step_install3">3) ขั้นตอนที่สาม</string>
     <string name="kin_variable">ชนิดของข้อมูลและตัวแปร</string>
-    <string name="logical">ข้อมูลแบบตรรกะ(Logical)</string>
-    <string name="detail_logical">
-        ข้อมูลประเภทนี้จะมีค่าแบบ Boolean โดยมีค่าเพียงสองค่า คือ true (จริง) false (เท็จ)
-    </string>
-    <string name="sample_logical">
-        ตัวอย่างเช่น boolean Click = true;
-              boolean noClick = false;
-        เป็นการประกาศตัวแปรชื่อ Click ให้เป็นข้อมูลบูลีนและกำหนดให้เป็นจริง ส่วน onClick ถูกกำหนดให้เป็นตัวแปรบูลีนและกำหนดให้เป็นเท็จ
-    </string>
-    <string name="sample_code_logical">
-       "@Nullable"
-    </string>
-    <string name="sample_code_logical2">
-        "@Override"
-    </string>
-    <string name="sample_code_logical3">
-        "public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
-                             @Nullable Bundle savedInstanceState) {
-            View view = inflater.inflate(R.layout.content, container,false);
-            return view;
-        }//OnCreateView"
-    </string>
     <string name="exit">ออกโปรแกรม</string>
     <string name="AboutJavaTechnology">
         เทคโนโลยี จาวา เป็นทั้งภาษาโปรแกรมและแพลตฟอร์ม
@@ -151,7 +129,47 @@ Java EE (Enterprise Edition) สำหรับพัฒนาโปรแกร
         .เขียนโค้ดที่น้อยกว่า : การเปรียบเทียบตัวชี้วัดของดปรแกรม(จำนวนคลาส,จำนวนเมธอดและอื่น ๆ)แนะนำให้โปรแกรมที่เขียนด้วยภาษาโปรแกรมจาวา สามรถที่มีขนาดเล้กกว่าโปรแกรมที่เขียนด้วย C ++ สี่เท่า
     </string>
     <string name="JavaTechnology5">
-        .เขียนโค้ดที่ดีกว่า : ภาษาการเขียนโปรแกรมจาวา ส่งเสริมการเขียนโปรแกรมที่ดีและการรวบรวมขยะอัตโนมัติช่วยให้คุณหลีกเลี่ยงการรั่วไหล
+        .เขียนโค้ดที่ดีกว่า : ภาษาการเขียนโปรแกรมจาวา ส่งเสริมการเขียนโปรแกรมที่ดีและการรวบรวมขยะอัตโนมัติช่วยให้คุณหลีกเลี่ยงการรั่วไหลของหน่วยความจำ การวางแนววัตถุ,สถาปัตยกรรมส่วนประกอบ Java Beans
+        และ API ที่ขยายเพิ่มได้ว่าย,ให้คุณใช้โค้ดที่มีอยู่,ที่ทดสอบแล้วและแนะนำบั๊กน้อยลง
     </string>
+    <string name="JavaTechnology6">
+        พัฒนาโปรแกรมได้รวดเร็วยิ่งขึ้น : ภาษาการเขียนโปรแกรม Java นั้นง่ายกว่า C++ และเวลาในการพัฒนาของคุณอาจเร็วขึ้นเป็นสองเท่าเมื่อเขียนโปรแกรม โปรแกรมของคุณจะต้องใช้รหัสบรรทัดน้อยลง
+    </string>
+    <string name="JavaTechnology7">
+        หลีเลี่ยงการพึ่งพาแพลตฟอร์ม : คุณสามารถทำให้โปรแกรมของคุณพกพาได้โดยหลีกเลี่ยงการใช้ไลบรารีที่เขียนด้วยภาษาอื่น
+    </string>
+    <string name="JavaTechnology8">
+        เขียนเพียงครั้งเดียวรันได้ทุกที่ : เนื่องจากแอปพลิเคชันที่เขียนด้วยภาษาการเขียนโปรแกรม Java นั้นได้รับการคอมไพล์เป็นโค้ดแบบไม่ขึ้นกับเครื่อง
+    </string>
+    <string name="JavaTechnology9">
+        แจกจ่ายซอฟต์แวร์ได้ง่าย : ด้วยซอฟต์แวร์ Java Web Start ผู้ใช้จะสามารถเปิดใช้งานแอปพลิเคชันของคุณได้ด้วยการคลิกเมาส์เพียงครั้งเดียว การตรวจสอบรุ่นอัตโนมัติเมื่อเริ่มต้นทำให้มั่นใจได้ว่าผู้ใช้จะได้รับการอัพเดท
+        ซอฟต์แวร์เวอร์ชันล่าสุดอยู่เสมอ หากมีการอัปเดตซอฟต์แวร์ Java Web Start จะอัปเดทการติดตั้งอัตโนมัติ
+    </string>
+    <string name="AppHelloWorld">
+        ดูใกล้ๆกับบทเรียน Application HelloWorld
+    </string>
+    <string name="AppHelloWorld2">
+        ตอนนี้คุณได้เห็น "HelloWorld" แอปพลิเคชั่น(และอาจรวบรวมและเรียกใช้)คุณอาจสงสัยว่ามันทำงานอย่างไร นี่คือรหัสของแอปพลิเคชั่นอีกครั้ง
+    </string>
+    <string name="AppHelloWorld3">
+        class HelloWorld {
+    </string>
+    <string name="AppHelloWorld4">
+            public static void main (String[]args) {
+    </string>
+    <string name="AppHelloWorld5">
+            System.out.println ( "Hello World" );
+    </string>
+    <string name="AppHelloWorld6">
+             } //Main Method
+    </string>
+    <string name="AppHelloWorld7">
+             } //Main Class
+    </string>
+    <string name="AppHelloWorld8">
+        HelloWorld แอปพลิเคชั่นประกอบด้วยสามองค์ประกอบหลัก : ความคิดเห็นที่มาของรหัส,นิยามคลาส,วิธีการหลัก คำอธิบายต่อไปนี้จะช่วยให้คุณเข้าใจพื้นฐานของรหัว
+        แต่ความหมายที่ลึกซึ้งยิ่งขึ้นจะปรากฏให้เห็นหลังจากคุณ อ่านบทแนะนำที่เหลือ เสร็จแล้วเท่านั้น
+    </string>
+
 
 </resources>

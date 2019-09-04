@@ -66,7 +66,7 @@ public class Content extends Fragment {
             @Override
             public void onClick(View v) {
                 getActivity().getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.FrameLayoutMain, new Content_Logical()).addToBackStack(null).commit();
+                        .replace(R.id.FrameLayoutMain, new Content_Lesson2()).addToBackStack(null).commit();
             }
         });
 
@@ -106,7 +106,7 @@ public class Content extends Fragment {
     private void InitialView() {
         textView = getView().findViewById(R.id.txtDownDev);
         textView1 = getView().findViewById(R.id.txtInstall);
-        textView2 = getView().findViewById(R.id.txtLogical);
+        textView2 = getView().findViewById(R.id.txtAppHelloWorld);
         textView3 = getView().findViewById(R.id.txtDetailGroupDev);
         textView4 = getView().findViewById(R.id.txtJavaLesson1);
         textView5 = getView().findViewById(R.id.txtJavaLesson1_1);

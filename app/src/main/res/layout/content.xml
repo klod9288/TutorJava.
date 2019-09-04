@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <include android:id="@+id/toolbarContent" layout="@layout/toolbar"/>
+    <include
+        android:id="@+id/toolbarContent"
+        layout="@layout/toolbar" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -14,41 +17,41 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <TextView
-                    android:textSize="@dimen/H1"
-                    android:gravity="center"
-                    android:textColor="@color/purplePrimary"
-                    android:text="@string/content"
-                    android:layout_margin="@dimen/Margin"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin"
+                    android:gravity="center"
+                    android:text="@string/content"
+                    android:textColor="@color/purplePrimary"
+                    android:textSize="@dimen/H1" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="  "
-                        android:textSize="@dimen/H1"
                         android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H1"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/txtDetailGroupDev"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="@string/GroupDev"
-                        android:textSize="@dimen/H2"
                         android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H2"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -57,22 +60,22 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="  "
-                        android:textSize="@dimen/H1"
                         android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H1"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/txtDownDev"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="การดาวโหลดชุดพัฒนาซอฟแวร์"
-                        android:textSize="@dimen/H2"
                         android:textColor="@color/back"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H2" />
 
                 </LinearLayout>
 
@@ -81,22 +84,48 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="  "
-                        android:textSize="@dimen/H1"
                         android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H1"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/txtInstall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="การติดตั้งโปแกรมพัฒนาซอฟแวร์"
-                        android:textSize="@dimen/H2"
                         android:textColor="@color/back"
+                        android:textSize="@dimen/H2" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/Margin"
+                        android:text="1"
+                        android:textColor="@color/purple"
+                        android:textSize="@dimen/H1"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtJavaLesson1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/Margin"
+                        android:text="จาวา เทคโลโลยีและจาวาโปรแกรมมิ่ง"
+                        android:textColor="@color/purple"
+                        android:textSize="@dimen/H2"
+                        android:textStyle="bold" />
+
 
                 </LinearLayout>
                 <!--lesson1-->
@@ -105,70 +134,46 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="1"
-                        android:textSize="@dimen/H1"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-                    <TextView
-                        android:id="@+id/txtJavaLesson1"
-                        android:layout_margin="@dimen/Margin"
-                        android:text="จาวา เทคโลโลยีและจาวาโปรแกรมมิ่ง"
-                        android:textSize="@dimen/H2"
-                        android:textStyle="bold"
-                        android:textColor="@color/purple"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
-
-
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <TextView
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="  "
-                        android:textSize="@dimen/H1"
                         android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H1"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/txtJavaLesson1_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="เทคโนโลยีจาวาทำอะไรได้บ้าง"
-                        android:textSize="@dimen/H2"
                         android:textColor="@color/back"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H2" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="  "
-                        android:textSize="@dimen/H1"
                         android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H1"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/txtJavaLesson1_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="เปลี่ยนชีวิตไปกับเทคโนโลยีจาวา"
-                        android:textSize="@dimen/H2"
                         android:textColor="@color/back"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H2" />
 
                 </LinearLayout>
 
@@ -177,22 +182,23 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="2"
-                        android:textSize="@dimen/H1"
                         android:textColor="@color/purple"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H1"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/kin_variable"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/purple"
-                        android:textStyle="bold"
+                        android:id="@+id/txtAppHelloWorld"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/Margin"
+                        android:text="การสรา้ง Application Hello World"
+                        android:textColor="@color/purple"
+                        android:textSize="@dimen/H2"
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -201,26 +207,23 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_margin="@dimen/Margin"
                         android:text="  "
-                        android:textSize="@dimen/H1"
                         android:textColor="@color/back"
-                        android:textStyle="bold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:textSize="@dimen/H1"
+                        android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/txtLogical"
-                        android:layout_margin="@dimen/Margin"
-                        android:text="@string/logical"
-                        android:textSize="@dimen/H2"
-                        android:textColor="@color/back"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/Margin"
+                        android:text=""
+                        android:textColor="@color/back"
+                        android:textSize="@dimen/H2" />
 
                 </LinearLayout>
-
-
 
             </LinearLayout>
 

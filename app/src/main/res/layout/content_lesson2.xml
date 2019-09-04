@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbarLesson2"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin"
+                    android:text="@string/AppHelloWorld"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H1"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/Margin"
+                    android:text="@string/AppHelloWorld2"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/Margin"
+                    android:layout_marginLeft="@dimen/Margin"
+                    android:text="@string/AppHelloWorld3"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H3"/>
+
+                <TextView
+                    android:text="@string/AppHelloWorld4"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/AppHelloWorld5"
+                    android:layout_margin="@dimen/Margin"
+                    android:gravity="center"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/AppHelloWorld6"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H3" />
+
+                <TextView
+                    android:layout_marginLeft="@dimen/Margin"
+                    android:text="@string/AppHelloWorld7"
+                    android:textSize="@dimen/H3"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+<!--                paragraph2-->
+                <TextView
+                    android:text="@string/AppHelloWorld8"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_margin="@dimen/Margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
