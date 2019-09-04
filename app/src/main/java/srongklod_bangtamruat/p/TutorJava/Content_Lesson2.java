@@ -23,7 +23,7 @@ public class Content_Lesson2 extends Fragment {
 
         Toolbar toolbar = getView().findViewById(R.id.toolbarLesson2);
         ((MainActivity) getActivity()).setSupportActionBar(toolbar);
-        ((MainActivity) getActivity()).getSupportActionBar().setTitle("Logical");
+        ((MainActivity) getActivity()).getSupportActionBar().setTitle("HelloWorld App");
         ((MainActivity) getActivity()).getSupportActionBar().setHomeButtonEnabled(true);
         ((MainActivity) getActivity()).getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
