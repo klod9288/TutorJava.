@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbarContentLesson3"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="@dimen/Margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/Object_Oriented"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/Margin"
+                    android:layout_marginBottom="@dimen/Margin"
+                    android:text="@string/Object_Oriented2"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="@string/Object_Oriented3"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented4"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/Margin"
+                    android:text="@string/Object_Oriented5"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/Margin"
+                    android:text="@string/Object_Oriented6"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented7"
+                    android:layout_marginLeft="@dimen/Margin"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented8"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented9"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented10"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented11"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented12"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented13"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented14"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented15"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented16"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented17"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/Object_Oriented18"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented19"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented20"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented21"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Object_Oriented22"
+                    android:textColor="@color/back"
+                    android:layout_marginBottom="@dimen/Margin"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>

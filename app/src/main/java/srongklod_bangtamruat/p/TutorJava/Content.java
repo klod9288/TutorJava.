@@ -11,7 +11,8 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 public class Content extends Fragment {
-    private TextView textView,textView1,textView2,textView3,textView4,textView5, textView6;
+    private TextView textView,textView1,textView2,textView3,textView4,textView5, textView6,textView7
+            ,textView8,textView9;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -101,6 +102,31 @@ public class Content extends Fragment {
                         .replace(R.id.FrameLayoutMain, new Content_Lesson1_2()).addToBackStack(null).commit();
             }
         });
+        textView7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.FrameLayoutMain, new Content_Lesson2_2()).addToBackStack(null).commit();
+            }
+        });
+
+        textView8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.FrameLayoutMain, new Content_Lesson3()).addToBackStack(null).commit();
+            }
+        });
+
+        textView9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.FrameLayoutMain, new Content_Lesson3_2()).addToBackStack(null).commit();
+            }
+        });
+
     }//TextView Controller
 
     private void InitialView() {
@@ -111,6 +137,10 @@ public class Content extends Fragment {
         textView4 = getView().findViewById(R.id.txtJavaLesson1);
         textView5 = getView().findViewById(R.id.txtJavaLesson1_1);
         textView6 = getView().findViewById(R.id.txtJavaLesson1_2);
+        textView7 = getView().findViewById(R.id.txtJavaLesson2_2);
+        textView8 = getView().findViewById(R.id.txtJavaLesson3);
+        textView9 = getView().findViewById(R.id.txtJavaLesson3_2);
+
     }//InitialView
 
     @Nullable

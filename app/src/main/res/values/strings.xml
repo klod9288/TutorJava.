@@ -229,7 +229,121 @@ Java EE (Enterprise Edition) สำหรับพัฒนาโปรแกร
         อาร์เรย์นี้เป็นกลไกที่ระบบรันไทม์ส่งผ่านข้อมูลไปยังแอปพลิเคชั่นของคุณ ตัวอย่างเช่น : java MyApp arg1 arg2
         สตริงในอาร์เรย์แต่ละครั้งจะถูกเรียกว่าอาร์กิวเมนต์บรรทัดคำสั่ง อาร์กิวเมนต์บรรทัดคำสั่งให้ผู้ใช้ส่งผลกระทบต่อการทำงานของแอปพลิเคชั่นโดยไม่ต้องคอมไพล์ใหม่
     </string>
-
+    <string name="SyntaxErrors">Syntax Errors(AllPlatforms)</string>
+    <string name="SyntaxErrors2">
+        หากคุณพิมพ์ผิดส่วนหนึ่งของโปรแกรม คอมไพเลอร์อาจบอกข้อผิดพลาดทาง ไวยากรณ์ ข้อความมักจะแสดงประเถทของข้อผิดพลาดหมายถึงเลขบรรทัดที่ตรวจพบข้อผิดพลาด โค้ดในบรรทัดนั้นและตำแหน่งของข้อผิดพลาด
+        ของข้อผิดพลาดภายในโค้ด นี่คือข้อผิดพลาดที่เกิดจากการไม่ใช้เครื่องหมาย อัฒภาค (;) ที่ท้ายคำสั่งซ
+    </string>
+    <string name="SyntaxErrors3">
+        "';'" expected.
+    </string>
+    <string name="SyntaxErrors4">
+        System.out.println ("'Input'" + count + "'chars.'")
+    </string>
+    <string name="SyntaxErrors5">
+        1 error
+    </string>
+    <string name="SyntaxErrors6">
+        คอมไพเลอร์ตรวจพบ 1 เออเรอร์ ทุกครั้งที่สิ้นสุดคำสั่งต้องปิดท้ายด้วย ; ทุกครั้ง
+    </string>
+    <string name="Object_Oriented">
+        คลาส คืออะไร
+    </string>
+    <string name="Object_Oriented2">
+        ในโลกแห่งความเป็นจริงคุณมักพบวัตถุหลายชิ้นที่เหมือนกันทั้งหมด อาจมีจักรยานอีกหลายพันคันที่มียี่ห้อและรุ่นเดียวกันทั้งหมด จักรยานแต่ละคันถูกสร้างจากพิมพ์เขียวชุดเดียวกันดังนั้นจึงมีส่วนประกอบเดียวกัน
+         ในแง่เชิงวัตถุเราบอกว่าจักรยานของคุณเป็นตัวอย่างของ คลาส ของวัตถุที่เรียกว่าจักรยาน ระดับคือพิมพ์เขียวจากการที่วัตถุที่บุคคลที่ถูกสร้างขึ้น
+    </string>
+    <string name="Object_Oriented3">
+        Bicycle คลาสต่อไปนี้เป็นการนำจักรยานไปใช้งานได้
+    </string>
+    <string name="Object_Oriented4">
+        class Bicycle {
+    </string>
+    <string name="Object_Oriented5">
+        int cadence = 0 ;
+    </string>
+    <string name="Object_Oriented6">
+        int speed = 0 ;
+    </string>
+    <string name="Object_Oriented7">
+        int gear = 1 ;
+    </string>
+    <string name="Object_Oriented8">
+        void changeCadence ( int newValue ) {
+    </string>
+    <string name="Object_Oriented9">
+        cadence = newValue ;
+    </string>
+    <string name="Object_Oriented10">
+        }
+    </string>
+    <string name="Object_Oriented11">
+        void changeGear ( int newValue ) {
+    </string>
+    <string name="Object_Oriented12">
+        gear = newValue ;
+    </string>
+    <string name="Object_Oriented13">
+        }
+    </string>
+    <string name="Object_Oriented14">
+        void speedUp ( int increment ) {
+    </string>
+    <string name="Object_Oriented15">
+        speed = speed + increment ;
+    </string>
+    <string name="Object_Oriented16">
+        }
+    </string>
+    <string name="Object_Oriented17">
+        void applyBrakes ( int decrement ) {
+    </string>
+    <string name="Object_Oriented18">
+        speed = speed - decrement ;
+    </string>
+    <string name="Object_Oriented19">
+        }
+    </string>
+    <string name="Object_Oriented20">
+        void printStates () ( int newValue ) {
+    </string>
+    <string name="Object_Oriented21">
+        System.out.println ( "'cadence :'" + cadence + "'speed :'" + speed + "'gear : '" + gear ) ;
+    </string>
+    <string name="Object_Oriented22">
+        }
+    </string>
+    <string name="inheritance">Inheritance คืออะไร</string>
+    <string name="Inheritance">
+        Inheritance
+    </string>
+    <string name="Inheritance2">
+        วัตถุชนิดต่าง ๆ มักมีจำนวนที่เหมือนกัน ตัวอย่างเช่นจักรยานเสือภูเขาจักรยานเสือหมอบ และจักรยานตีคู่ ทุกคนมีคุณสมบัติของจักรยานร่วมกัน (ความเร็วปัจจุบันจังหวะปั่นปัจจุบันเกียร์ปัจจุบัน) แต่ละคน
+        ก็กำหนดคุณสมบัติเพิ่มเติมที่ทำให้พวกเขาแตกต่าง : จักรยานตีคู่มีสองที่นั่งและสองชุดแฮนด์ จักรยานเถนนมีแถบแฮนด์หล่น จักรยานเสือภูเขาบางคันมีห่วงโซ่เพิ่มเติมทำให้พวกเขามีอัตรายส่วนเกียร์ต่ำ
+    </string>
+    <string name="Inheritance3">
+        การเขียนโปรแกรมเชิงวัตถุช่วยให้คลาสสืบทอด สถานะและพฤติกรรมที่ใช้กันทั่วไปจากคลาสอื่น ในตัวอย่างนี้ Bicycle ตอนนี้กลายเป็น superclass ของ MountainBike และ
+        RoadBike TandemBike ในภาษาการเขียนโปรแกรม Java แต่ละคลาสจะได้รับอณุญาตให้มีซุปเปอร์คลาสโดยตรงหนึ่งคลาส และแต่ละคลาสซูปเปร์คลาสนั้นมีศักภาพสำหรับคลาสย่อยจำนวนไม่จำกัด
+    </string>
+    <string name="Inheritance4">
+        ลำดับชั้นของคลาสจักรยาน
+    </string>
+    <string name="Inheritance5">
+        ไวยากรณ์สำหรับการสร้างคลาสย่อยนั้นง่าย ในตอนต้นของการประกาศคลาสของคุณให้ใช้ extends คีย์เวิร์ดตามด้วยชื่อคลาสเพื่อรับช่วงจาก :
+    </string>
+    <string name="Inheritance6">
+        class MountainBike extends Bicycle {
+    </string>
+    <string name="Inheritance7">
+        //new fields and methods defining
+    </string>
+    <string name="Inheritance8">
+        //a mountain bike would go here
+    </string>
+    <string name="Inheritance9">
+        สิ่งนี้ให้ MountainBike เขตข้อมูลและวิธีการเดียวกันทั้งหมด Bicycle แต่ยังอณุญาตให้ใช้โค้ดในการมุ่งเน้นเฉพาะคุณลักษณะที่ทำให้เป็นเอกลักษณ์ ทำให้โค้ดสำหรับคลาสย่อยของคุณอ่านง่าย
+        อย่างไรก็ตามคุณต้องระมัดระวังในการจัดทำเอกสารสถานะและพฤติกรรมที่ซุปเปอร์คลาสแต่ละรายการ กำหนดอย่างเหมาะสมเนื่องจากโค้ดนั้นจะไม่ปรากฏในไฟล์ต้นฉบับของแต่ละคลาสย่อย
+    </string>
 
 
 

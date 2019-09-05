@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbarContentLesson3_2"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_margin="@dimen/Margin"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/Inheritance"
+                    android:textSize="@dimen/H1"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Inheritance2"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Inheritance3"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:src="@drawable/inheritance"
+                    android:layout_marginTop="@dimen/Margin"
+                    android:layout_marginBottom="@dimen/Margin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Inheritance4"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Inheritance5"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/Margin"
+                    android:text="@string/Inheritance6"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/Inheritance7"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:text="@string/Inheritance8"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginBottom="@dimen/Margin"
+                    android:text="}"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginBottom="@dimen/Margin"
+                    android:text="@string/Inheritance9"
+                    android:textSize="@dimen/H2"
+                    android:textColor="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
