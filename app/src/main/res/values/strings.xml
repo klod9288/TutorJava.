@@ -313,7 +313,7 @@ Java EE (Enterprise Edition) สำหรับพัฒนาโปรแกร
     <string name="Object_Oriented22">
         }
     </string>
-    <string name="inheritance">Inheritance คืออะไร</string>
+    <string name="inheritance">Inheritance </string>
     <string name="Inheritance">
         Inheritance
     </string>
@@ -344,6 +344,128 @@ Java EE (Enterprise Edition) สำหรับพัฒนาโปรแกร
         สิ่งนี้ให้ MountainBike เขตข้อมูลและวิธีการเดียวกันทั้งหมด Bicycle แต่ยังอณุญาตให้ใช้โค้ดในการมุ่งเน้นเฉพาะคุณลักษณะที่ทำให้เป็นเอกลักษณ์ ทำให้โค้ดสำหรับคลาสย่อยของคุณอ่านง่าย
         อย่างไรก็ตามคุณต้องระมัดระวังในการจัดทำเอกสารสถานะและพฤติกรรมที่ซุปเปอร์คลาสแต่ละรายการ กำหนดอย่างเหมาะสมเนื่องจากโค้ดนั้นจะไม่ปรากฏในไฟล์ต้นฉบับของแต่ละคลาสย่อย
     </string>
+    <string name="Interface">Interface</string>
+    <string name="Interface2">
+        Interface คืออะไร
+    </string>
+    <string name="Interface3">
+        ในขณะที่คุณเรียนรู้แล้ววัตถุกำหนดปฏิสัมพันธ์ของพวกเขากับโลกภายนอกผ่านวิธีการที่พวกเขาเปิดเผย วิธีสร้างส่วนต่อประสานของวัตถุจากโลกภายนอก ตัวอย่างเช่นปุ่มที่อยู่ด้านหน้าของโทรศัพท์ของคุณเป็นส่วนต่อประสาน
+        ระหว่างคุณกับสายไฟที่อีกด้านหนึ่งของปลอกพลาสติก คุณกดปุ่ม พลังงานเพื่อเปิดและปิดโทรศัพท์
+    </string>
+    <string name="Interface4">
+        interface Bicycle {
+    </string>
+    <string name="Interface5">
+        //wheel revolution per minute
+    </string>
+    <string name="Interface6">
+        void changeCadence ( int newValue ) ;
+    </string>
+    <string name="Interface7">
+        void changeGear ( int newValue ) ;
+    </string>
+    <string name="Interface8">
+        void speedUp ( int increment ) ;
+    </string>
+    <string name="Interface9">
+        void applyBrakes ( int decrement ) ;
+    </string>
+    <string name="Interface10">
+        }
+    </string>
+    <string name="Interface11">
+        ในการใช้อินเทอร์เฟซชื่อคลาสของคุรจะเปลี่ยบน (เป็นแบรนด์ของจักรยานเฉพาะเช่น ACMEBicycle) และคุรจะใช้ implement เป็นคำหลักในการประกาศคลาส
+    </string>
+    <string name="Interface12">
+        class ACNEBicycle implement Bicycle {
+    </string>
+    <string name="Interface13">
+        int cadence = 0 ;
+    </string>
+    <string name="Interface14">
+        int speed = 0 ;
+    </string>
+    <string name="Interface15">
+        int gear = 1 ;
+    </string>
+    <string name="Interface16">
+        //The compiler will now require that methods
+    </string>
+    <string name="Interface17">
+        //changCadence,changeGear,speedUp,and applyBrakes
+    </string>
+    <string name="Interface18">
+        //all be implemented. Compilation will fail if those
+    </string>
+    <string name="Interface19">
+        //methods are missing from this class.
+    </string>
+    <string name="Interface20">
+        void changeCadence ( int newValue ) {
+    </string>
+    <string name="Interface21">
+        cadence = newValue ;
+    </string>
+    <string name="Interface22">
+        }
+    </string>
+    <string name="Interface23">
+        void changeGear ( int newValue ) {
+    </string>
+    <string name="Interface24">
+        gear = newValue ;
+    </string>
+    <string name="Interface25">
+        }
+    </string>
+    <string name="Interface26">
+        void speedUp ( int increment ) {
+    </string>
+    <string name="Interface27">
+        speed = speed + increment ;
+    </string>
+    <string name="Interface28">
+        }
+    </string>
+    <string name="Interface29">
+        void applyBrakes ( int decrement ) {
+    </string>
+    <string name="Interface30">
+        speed = speed + decrement ;
+    </string>
+    <string name="Interface31">
+        }
+    </string>
+    <string name="Interface32">
+        void printStates ( ) {
+    </string>
+    <string name="Interface33">
+        System.out.println ("'cadence :'" + cadence + "'speed :'" + speed + "'gear :'" + gear ) ;
+    </string>
+    <string name="Interface34">
+        }
+    </string>
+    <string name="Interface35">
+        }
+    </string>
+    <string name="Interface36">
+        การใช้อินเทอร์เฟซช่วยให้คลาสมีความเป็นทางการมากขึ้น เกี่ยวกับพฤติกรรมที่สัญญาไว้ อินเทอร์เฟซแบบสัญญาระหว่างคลาส และโลกภายนอก และสัญญาที่มีผลบังคับใช้ในการสร้างเวลาโดยคอมไพเลอร์
+         หากคลาสของคุณอ้างว่าใช้อินเทอร์เฟซวิธีการทั้งหมดที่กำหนดโดยส่วนต่อประสานนั้นจะต้องปรากฏในซอร์สโค้ดก่อนที่คลาสจะคอมไพล์สำเร็จ
+    </string>
+    <string name="Interface37">
+        หมายเหตุ : ในการรวบรวม ACMEBicycle ในการใช้งานจริงคุรจะต้องเพิ่ม public เป็นคำหลักที่จุดเริ่มต้นของวิธีการอินเทอร์เฟซที่นำมาใช้
+    </string>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

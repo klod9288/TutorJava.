@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class Content extends Fragment {
     private TextView textView,textView1,textView2,textView3,textView4,textView5, textView6,textView7
-            ,textView8,textView9;
+            ,textView8,textView9,textView10;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -127,6 +127,14 @@ public class Content extends Fragment {
             }
         });
 
+        textView10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                getActivity().getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.FrameLayoutMain, new Content_Lesson3_3()).addToBackStack(null).commit();
+            }
+        });
+
     }//TextView Controller
 
     private void InitialView() {
@@ -140,6 +148,7 @@ public class Content extends Fragment {
         textView7 = getView().findViewById(R.id.txtJavaLesson2_2);
         textView8 = getView().findViewById(R.id.txtJavaLesson3);
         textView9 = getView().findViewById(R.id.txtJavaLesson3_2);
+        textView10 = getView().findViewById(R.id.txtJavaLesson3_3);
 
     }//InitialView
 

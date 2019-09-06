@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbarContentLesson3_3"
+        layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="@dimen/Margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="@string/Interface"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H1"
+                    android:textStyle="bold|italic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface2"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface3"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/Margin"
+                    android:text="@string/Interface4"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/Interface5"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/Margin"
+                    android:text="@string/Interface6"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/Margin"
+                    android:text="@string/Interface7"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/Margin"
+                    android:text="@string/Interface8"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/Margin"
+                    android:text="@string/Interface9"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginBottom="@dimen/Margin"
+                    android:text="@string/Interface10"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface11"
+                    android:textColor="@color/back"
+                    android:layout_marginBottom="@dimen/Margin"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface12"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/Interface13"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/Interface14"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/Interface15"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface16"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface17"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface18"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface19"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface20"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/Interface21"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface22"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface23"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/Interface24"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface25"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface26"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/Interface27"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface28"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface29"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/Interface30"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface31"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface32"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="40dp"
+                    android:text="@string/Interface33"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="@dimen/Margin"
+                    android:text="@string/Interface34"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="@string/Interface35"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/Margin"
+                    android:text="@string/Interface36"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginBottom="@dimen/Margin"
+                    android:text="@string/Interface37"
+                    android:textColor="@color/back"
+                    android:textSize="@dimen/H2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</LinearLayout>
